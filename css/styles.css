@@ -522,7 +522,7 @@ fill: #F4F4FD;
     padding: 100px 0px;
     display: flex;
     align-items: baseline;
-    margin-right: 120px
+    margin-right: 120px;
 }
 .logo-footer-part {
     color: #f4f4fd;
@@ -546,13 +546,14 @@ fill: #F4F4FD;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .footer-container {
     isplay: flex;
     gap: 120px;
     align-items: baseline;
-    margin-right: 120px;
+/*     margin-right: 120px; */
 }
 
 .footer-text-socials {
