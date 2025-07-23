@@ -384,8 +384,11 @@ background: #F4F4FD;
 }
 
 
-.socials-link:hover,
- socials-link:focus{
+.socials-link:hover {
+    background-color: #404bbf;
+}
+
+ .socials-link:focus {
     background-color: #404bbf;
 }
 
@@ -399,7 +402,6 @@ padding-top: 8px;
 
 
 .social-icons a {
-    display: block;
     width:  40px;
     height: 40px;
     border: 1px solid #4D5AE5;
@@ -496,11 +498,17 @@ fill: #F4F4FD;
 
 }
 
-.portfolio-list-item:hover .overlay {
-    transform: translateY(0%);
+.portfolio-list-item:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-list-item:hover .overlay {
+    transform: translateY(0%);
+/*     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 
@@ -541,8 +549,10 @@ fill: #F4F4FD;
 }
 
 .footer-container {
-    display: flex;
+    isplay: flex;
     gap: 120px;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-text-socials {
@@ -582,8 +592,11 @@ margin-bottom: 16px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link:hover,
-footer-socials-link:focus {
+.footer-socials-link:hover{
+    background-color: #31d0aa;
+}
+
+.footer-socials-link:focus{
     background-color: #31d0aa;
 }
 /* #endregion */
