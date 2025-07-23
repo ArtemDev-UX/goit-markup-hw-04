@@ -536,13 +536,13 @@ align-items: baseline;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-    margin-right: 120px;
+
 }
 
 
-/* .footer-logo {
+.footer-logo {
     margin-right: 120px;
-} */
+}
 
 
 .logo-footer-part {
